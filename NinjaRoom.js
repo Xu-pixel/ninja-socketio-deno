@@ -1,4 +1,4 @@
-import { omit, remove } from 'npm:lodash-es'
+import { omit, remove } from 'https://raw.githubusercontent.com/lodash/lodash/4.17.21-es/lodash.js'
 import { Server } from "https://deno.land/x/socket_io@0.1.1/mod.ts";
 
 export class NinjaRoom {

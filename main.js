@@ -1,4 +1,4 @@
-import { forOwn, pickBy, sum } from "npm:lodash-es";
+import { forOwn, pickBy, sum } from 'https://raw.githubusercontent.com/lodash/lodash/4.17.21-es/lodash.js';
 import { serve } from "https://deno.land/std@0.150.0/http/server.ts";
 import { Server } from "https://deno.land/x/socket_io@0.1.1/mod.ts";
 import { NinjaRoom } from "./NinjaRoom.js";
